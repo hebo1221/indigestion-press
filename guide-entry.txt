@@ -1,17 +1,15 @@
-작품명: 소화불량 (Indigestion)
+작품명: 구토 (Vomit)
 작가명: 김정훈
 이미지 주소: https://raw.githubusercontent.com/hebo1221/indigestion-press/main/indigestion-purge.png
 작품 링크: https://hebo1221.github.io/indigestion-press/
 
 ===== 아래 전체를 '작품 설명' 칸에 통째로 붙여넣기 =====
-            소화불량 
+            구토
                                     
 김정훈
 
 누가 부었는가, 이 검은 물을.
-
 묻지 못하고 나는 삼켰다.
-
 매일 낯선 입들이 벌어져
 고를 새도 없이 목구멍에 쏟아졌다.
 
@@ -40,7 +38,7 @@ AI가 실제 레딧을 읽는다. 읽은 문장은 토큰으로 쪼개져 모델
 
 ---
 
-(Poem — "Indigestion")
+(Poem — "Vomit")
 
 Who poured it, this black water?
 Unable to ask, I swallowed.
