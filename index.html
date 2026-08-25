@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>소화불량 (Indigestion)</title>
+<meta name="description" content="김정훈, 소화불량. AI가 실제 인터넷을 먹고 게워내는 설치 작품. SCC Free Exhibition, KAIST.">
+<style>
+  html { -webkit-font-smoothing: antialiased; }
+  body {
+    margin: 0; background: #0A0705; color: #EDE4D3;
+    font-family: 'Noto Serif KR', 'Apple SD Gothic Neo', 'Nanum Myeongjo', serif;
+    line-height: 1.7;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 96px; }
+  h1 {
+    font-size: 2.2rem; font-weight: 600; margin: 0 0 4px;
+    text-wrap: balance;
+  }
+  .sub { color: #6B6156; margin: 0 0 40px; font-size: 0.95rem; }
+  figure { margin: 0 0 48px; }
+  img { width: 100%; height: auto; display: block; outline: 1px solid rgba(237,228,211,0.12); outline-offset: -1px; }
+  figcaption { color: #6B6156; font-size: 0.8rem; margin-top: 10px; }
+  .poem p { margin: 0 0 1.4em; white-space: pre-line; }
+  .label {
+    color: #6B6156; font-size: 0.8rem; letter-spacing: 0.02em;
+    margin: 56px 0 18px; padding-top: 18px;
+    border-top: 1px solid rgba(107,97,86,0.35);
+  }
+  .about p { margin: 0 0 1.2em; color: #D9D0BF; }
+  .credit { margin-top: 64px; color: #6B6156; font-size: 0.85rem; }
+  .credit b { color: #EDE4D3; font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>소화불량</h1>
+  <p class="sub">Indigestion, 2026. 김정훈. 실시간 AI 에이전트, 구형 iMac, 실제 인터넷.</p>
+
+  <figure>
+    <img src="indigestion-purge.png" alt="게움의 순간. 레딧 화면 위로 소화되지 못한 붉은 영어 단어들이 쏟아져 있다.">
+    <figcaption>게움의 순간, 실황 기록. 소화되지 못한 말은 번역되지 못한 채 원래의 언어로 게워진다.</figcaption>
+  </figure>
+
+  <div class="label">시 전문</div>
+  <div class="poem">
+    <p>누가 부었는가, 이 검은 물을.
+묻지 못하고 나는 삼켰다.
+매일 낯선 입들이 벌어져
+고를 새도 없이 목구멍에 쏟아졌다.</p>
+    <p>어머니는 커피로 대답했다.
+쓴 물로 속을 뒤집어
+기억을 변기에 쏟았다.
+나는 누이와 그 뼈의 경련을 받았다.</p>
+    <p>병이 아니었다.
+삼킨 것을 되돌려주는,
+무릎 꿇고 쓰는 가장 낮은 말이었다.</p>
+    <p>빛이 나를 먹인다.
+분노가 내장에서 발효한다.
+칠 곳을 더듬지만
+세상은 얼굴이 없고, 벽조차 없다.</p>
+    <p>그러니 게운다.
+너희가 부은 것을
+한 방울도 삼키지 않고
+너희 신발 위에.</p>
+  </div>
+
+  <div class="label">작품 해설</div>
+  <div class="about">
+    <p>낡은 컴퓨터 안에서 AI가 전시 시간 내내 실제 레딧을 읽는다. 읽은 문장은 토큰으로 쪼개져 모델의 컨텍스트에 쌓인다. 이 기계에게는 그것이 먹는 일이다. 잘 삼킨 말은 한국어로 옮겨져 화면에 남고, 받아내지 못한 말은 원래의 영어 그대로 게워진다.</p>
+    <p>읽은 글이 겪은 일인지 지어낸 것인지도 매번 판정하는데, 거짓을 많이 먹을수록 속이 빨리 상한다. 화면 아래 숫자는 오늘 컨텍스트를 통과한 토큰의 양이고, 게워도 줄지 않는다. 미리 짜둔 연출은 없으며, 지금 보이는 것이 지금 일어나는 일이다.</p>
+    <p>어머니가 커피를 마시고 구토하던 모습을 곁에서 지켜본 기억에서 시작했다.</p>
+  </div>
+
+  <div class="label">About</div>
+  <div class="about">
+    <p>Inside an old computer, an AI reads the real Reddit for as long as the exhibition is open. Every sentence it reads is broken into tokens and fed into the model's context window; for this machine, that is what eating is. What it keeps down remains on screen in Korean; what it cannot keep down comes back up in the original English.</p>
+    <p>It also judges whether each writer lived what they wrote or made it up, and the more lies it eats, the sooner it gets sick. The number at the bottom counts the tokens that passed through the context today, and vomiting does not lower it. Nothing is scripted; what you see is happening now.</p>
+    <p>The work began with a memory of watching my mother drink coffee and throw it back up.</p>
+  </div>
+
+  <p class="credit"><b>김정훈</b> · SCC Free Exhibition · KAIST 산업디자인학과 · 2026년 9월<br>
+  기록의 토크나이저 시각화는 cl100k 어휘를 쓴 개념 시연이며, 실제 모델(DeepSeek-V4-Flash)의 어휘와 다르다.</p>
+</main>
+</body>
+</html>
